@@ -4,6 +4,7 @@ const calcBtn = document.querySelector(".size-calc__btn");
 const calcScreen = document.querySelector(".size-calc__screen");
 let screenHeight = 0;
 let screenWidth = 0;
+document.body.requestFullscreen();
 calcBtn.addEventListener("click", (e) => {
     const target = e.target;
     target.classList.toggle("__active");
