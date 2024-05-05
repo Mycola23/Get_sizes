@@ -1,7 +1,6 @@
-# amazon_site
+# get sizes
 
-It`s small copy of real amazon site with basic functionality
 
-Add lazy loading
 
-wotk calcular that calc sum of ordery
+
+working calculator to get sizes of screen
