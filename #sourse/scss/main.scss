@@ -64,6 +64,7 @@ body {
     flex-direction: column;
     box-shadow: -5px 2px 20px #66ccff;
     &__screen {
+        margin: 35px 0;
         color: #fff;
 
         @include adaptive-value(font-size, 20, 45, $minWidth, $maxWidth);
@@ -90,7 +91,7 @@ body {
     }
 
     &__btn {
-        margin: 0 auto;
+        margin: 30px auto;
         text-align: center;
         border-radius: 10px 10px 0 0;
         padding: 10px 20px;

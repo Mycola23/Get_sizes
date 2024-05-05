@@ -115,6 +115,7 @@ body {
 }
 
 .size-calc__screen {
+  margin: 35px 0;
   color: #fff;
   font-size: calc(20px + 25 * ((100vw - 320px) / 1120));
   padding: 5%;
@@ -154,7 +155,7 @@ body {
 }
 
 .size-calc__btn {
-  margin: 0 auto;
+  margin: 30px auto;
   text-align: center;
   border-radius: 10px 10px 0 0;
   padding: 10px 20px;
